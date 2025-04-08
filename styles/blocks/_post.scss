@@ -19,7 +19,7 @@
         width: 83%; /* или нужная вам ширина */
         height: 100%; /* или нужная вам высота */
         overflow: hidden; /* чтобы обрезать края */
-        border-radius: 50%;
+        clip-path: circle(50% at 50% 50%);
         &::before {
             content: "";
             padding-top: 100%;
