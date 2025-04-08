@@ -258,12 +258,12 @@ body {
 }
 .post__item:last-child {
   background: unset;
-  width: 294px;
-  height: 294px;
   padding: 0;
-  overflow: hidden;
-  border-radius: 50%;
   position: relative;
+  width: 83%; /* или нужная вам ширина */
+  height: 100%; /* или нужная вам высота */
+  overflow: hidden; /* чтобы обрезать края */
+  border-radius: 50%;
 }
 .post__item:last-child::before {
   content: "";
@@ -299,6 +299,7 @@ body {
   top: 0;
   height: 100%;
   transform: translateX(-50%);
+  object-fit: cover;
 }
 
 .footer__top {

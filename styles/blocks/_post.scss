@@ -14,12 +14,12 @@
     padding: 17px 20px 8px 20px;
     &:last-child {
         background: unset;
-        width: 294px;
-        height: 294px;
         padding: 0;
-        overflow: hidden;
-        border-radius: 50%;
         position: relative;
+        width: 83%; /* или нужная вам ширина */
+        height: 100%; /* или нужная вам высота */
+        overflow: hidden; /* чтобы обрезать края */
+        border-radius: 50%;
         &::before {
             content: "";
             padding-top: 100%;
@@ -52,4 +52,5 @@
     top: 0;
     height: 100%;
     transform: translateX(-50%);
+    object-fit: cover;
 }
