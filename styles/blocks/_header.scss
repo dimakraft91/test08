@@ -1,0 +1,23 @@
+.header {
+    padding: 20px;
+    background: #ad0001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 392px;
+    }
+    a {
+        text-decoration: none;
+        font-family: var(--font-family);
+        font-weight: 900;
+        font-size: 23px;
+        color: #d5a946;
+        img {
+            margin-right: 15px;
+        }
+    }
+}
