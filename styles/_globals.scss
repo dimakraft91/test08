@@ -2,6 +2,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+html, body { 
+    overflow-x: hidden;
+}
+
 .wrap {
     max-width: 392px;
     margin: 0 auto;

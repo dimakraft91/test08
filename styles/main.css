@@ -210,6 +210,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 .wrap {
   max-width: 392px;
   margin: 0 auto;
@@ -222,11 +226,28 @@ body {
   align-items: center;
   justify-content: center;
 }
-.header__logo {
+.header__block {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 392px;
+}
+.header .header__block-arrow {
+  margin-right: 31px;
+}
+.header .header__block-faq {
+  justify-content: flex-start;
+  padding-left: 15px;
+  width: unset;
+}
+.header .header__block-text-faq {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 23px;
+  color: #dedede;
+}
+.header .header-faq {
+  justify-content: unset;
 }
 .header a {
   text-decoration: none;
@@ -239,6 +260,10 @@ body {
   margin-right: 15px;
 }
 
+.header-faq {
+  justify-content: flex-start;
+}
+
 .post {
   background-color: #101018;
 }
@@ -248,6 +273,35 @@ body {
   padding-right: 20px;
   padding-top: 17px;
   padding-bottom: 45px;
+}
+
+.post .container-faq {
+  padding-bottom: 17px;
+}
+
+.post__wrap {
+  background: #303030;
+  border-radius: 8px;
+  padding: 17px 20px 0 20px;
+}
+.post__wrap .post__item {
+  margin-bottom: 19px;
+  padding: unset;
+}
+.post__wrap .post__item:last-child {
+  width: unset;
+  height: unset;
+  clip-path: unset;
+  padding-bottom: 66px;
+  margin-bottom: 0;
+}
+.post__wrap .post__item:last-child::before {
+  content: unset;
+  padding-top: unset;
+  display: unset;
+}
+.post__wrap .post__item .post__item-img {
+  margin-bottom: 0;
 }
 
 .post__item {
@@ -271,11 +325,20 @@ body {
   display: block;
 }
 
+.post__item-title {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
 .post__item-text {
   font-family: var(--font-family);
   font-weight: 900;
   font-size: 12px;
   color: #fff;
+  line-height: 15px;
 }
 
 .post__item-time {
@@ -300,6 +363,19 @@ body {
   height: 100%;
   transform: translateX(-50%);
   object-fit: cover;
+}
+
+.play-icon {
+  position: absolute; /* Абсолютное позиционирование для иконки */
+  top: 50%; /* Центруем по вертикали */
+  left: 50%; /* Центруем по горизонтали */
+  transform: translate(-50%, -50%); /* Смещение для точного центрирования */
+  width: 134px; /* Ширина иконки */
+  height: 134px; /* Высота иконки */
+  background: url("../../icons/play-icon.svg") no-repeat center center; /* Путь к иконке воспроизведения */
+  background-size: contain; /* Подгоняем иконку под размеры блока */
+  cursor: pointer; /* Меняем курсор при наведении */
+  z-index: 10; /* Убедитесь, что иконка над видео */
 }
 
 .footer__top {

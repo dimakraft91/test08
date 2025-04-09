@@ -4,11 +4,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    &__logo {
+    &__block {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 392px;
+        width: 392px
+    }
+    .header__block-arrow {
+        margin-right: 31px;
+    }
+    .header__block-faq {
+        justify-content: flex-start;
+        padding-left: 15px;
+        width: unset;
+    }
+    .header__block-text-faq {
+        font-family: var(--font-family);
+        font-weight: 900;
+        font-size: 23px;
+        color: #dedede;
+    }
+    .header-faq {
+        justify-content: unset;
     }
     a {
         text-decoration: none;
@@ -20,4 +37,8 @@
             margin-right: 15px;
         }
     }
+}
+
+.header-faq {
+    justify-content: flex-start;
 }
