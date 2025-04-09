@@ -381,8 +381,8 @@ html, body {
   top: 50%; /* Центруем по вертикали */
   left: 50%; /* Центруем по горизонтали */
   transform: translate(-50%, -50%); /* Смещение для точного центрирования */
-  width: 12px; /* Ширина иконки */
-  height: 12px; /* Высота иконки */
+  width: 134px; /* Ширина иконки */
+  height: 134px; /* Высота иконки */
   background: url("../icons/play-icon.png") no-repeat center center; /* Путь к иконке воспроизведения */
   background-size: contain; /* Подгоняем иконку под размеры блока */
   cursor: pointer; /* Меняем курсор при наведении */
