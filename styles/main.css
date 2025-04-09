@@ -367,10 +367,6 @@ html, body {
   margin-bottom: 12px;
 }
 
-.video-container {
-  opacity: 1;
-}
-
 .post__item-video {
   position: absolute;
   left: 50%;
@@ -378,7 +374,6 @@ html, body {
   height: 100%;
   transform: translateX(-50%);
   object-fit: cover;
-  opacity: 1;
 }
 
 .play-icon {
@@ -391,7 +386,7 @@ html, body {
   background: url("../icons/play-icon.svg") no-repeat center center; /* Путь к иконке воспроизведения */
   background-size: contain; /* Подгоняем иконку под размеры блока */
   cursor: pointer; /* Меняем курсор при наведении */
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .footer {
