@@ -387,6 +387,7 @@ html, body {
   background-size: contain; /* Подгоняем иконку под размеры блока */
   cursor: pointer; /* Меняем курсор при наведении */
   z-index: 10; /* Убедитесь, что иконка над видео */
+  opacity: 0.8;
 }
 
 .footer {
