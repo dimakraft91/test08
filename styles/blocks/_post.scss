@@ -101,6 +101,6 @@
     background: url('../icons/play-icon.svg') no-repeat center center; /* Путь к иконке воспроизведения */
     background-size: contain; /* Подгоняем иконку под размеры блока */
     cursor: pointer; /* Меняем курсор при наведении */
-    z-index: 10; /* Убедитесь, что иконка над видео */
-    opacity: 0.8;
+    // z-index: 10; /* Убедитесь, что иконка над видео */
+    // opacity: 0.8;
 }
