@@ -83,6 +83,9 @@
     margin-top: 16px;
     margin-bottom: 12px;
 }
+.video-container {
+    opacity: 1;
+}
 .post__item-video {
     position: absolute;
     left: 50%;
@@ -90,6 +93,7 @@
     height: 100%;
     transform: translateX(-50%);
     object-fit: cover;
+    opacity: 1;
 }
 .play-icon {
     position: absolute; /* Абсолютное позиционирование для иконки */
@@ -102,5 +106,5 @@
     background-size: contain; /* Подгоняем иконку под размеры блока */
     cursor: pointer; /* Меняем курсор при наведении */
     // z-index: 10; /* Убедитесь, что иконка над видео */
-    // opacity: 0.8;
+    opacity: 0.5;
 }
