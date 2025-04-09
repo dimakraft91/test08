@@ -17,9 +17,9 @@
 .footer__top-text {
     font-family: var(--font-family);
 font-weight: 900;
-font-size: 23px;
+font-size: 20px;
 color: #d5a946;
-margin-right: 14px;
+margin-right: 12px;
 }
 .footer__top-social {
     display: flex;
@@ -27,8 +27,9 @@ margin-right: 14px;
 .social {
 }
 .social__img {
+    width: 42px;
     &:first-child {
-        margin-right: 14px;
+        margin-right: 12px;
     }
 }
 .footer__bottom {

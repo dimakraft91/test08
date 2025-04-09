@@ -213,7 +213,9 @@ body {
 html, body {
   overflow-x: hidden;
   height: 100%;
-  min-height: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  max-height: 100vh;
   max-height: 100dvh;
 }
 
@@ -259,11 +261,12 @@ html, body {
   text-decoration: none;
   font-family: var(--font-family);
   font-weight: 900;
-  font-size: 23px;
+  font-size: 20px;
   color: #d5a946;
 }
 .header a img {
-  margin-right: 15px;
+  margin-right: 12px;
+  width: 45px;
 }
 
 .header-faq {
@@ -401,17 +404,20 @@ html, body {
 .footer__top-text {
   font-family: var(--font-family);
   font-weight: 900;
-  font-size: 23px;
+  font-size: 20px;
   color: #d5a946;
-  margin-right: 14px;
+  margin-right: 12px;
 }
 
 .footer__top-social {
   display: flex;
 }
 
+.social__img {
+  width: 42px;
+}
 .social__img:first-child {
-  margin-right: 14px;
+  margin-right: 12px;
 }
 
 .footer__bottom {
