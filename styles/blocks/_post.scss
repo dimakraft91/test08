@@ -1,10 +1,13 @@
 .post {
     background-color: #101018;
+    height: 100%;
+    overflow-y: auto;
+    flex-grow: 1;
 }
 .post .container {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 109px;
+    padding-top: 17px;
     padding-bottom: 45px;
 }
 .post .container-faq {
