@@ -201,7 +201,7 @@ svg * {
 }
 @font-face {
   font-family: "Inter", sans-serif;
-  src: url("InterBlack.woff2") format("woff2"), url("InterBlack.woff") format("woff");
+  src: url("../fonts/InterBlack.woff2") format("woff2"), url("../fonts/InterBlack.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -249,7 +249,7 @@ html, body {
   width: unset;
 }
 .header .header__block-text-faq {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 23px;
   color: #dedede;
@@ -259,7 +259,7 @@ html, body {
 }
 .header a {
   text-decoration: none;
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 20px;
   color: #d5a946;
@@ -322,7 +322,7 @@ html, body {
   margin-bottom: 27px;
   padding: 17px 20px 8px 20px;
 }
-.post__item:last-child {
+.video-container {
   background: unset;
   padding: 0;
   position: relative;
@@ -331,14 +331,14 @@ html, body {
   overflow: hidden; /* чтобы обрезать края */
   clip-path: circle(50% at 50% 50%);
 }
-.post__item:last-child::before {
+.video-container::before {
   content: "";
   padding-top: 100%;
   display: block;
 }
 
 .post__item-title {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 12px;
   color: #fff;
@@ -346,7 +346,7 @@ html, body {
 }
 
 .post__item-text {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 12px;
   color: #fff;
@@ -354,7 +354,7 @@ html, body {
 }
 
 .post__item-time {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 12px;
   color: #979797;
@@ -383,10 +383,9 @@ html, body {
   transform: translate(-50%, -50%); /* Смещение для точного центрирования */
   width: 134px; /* Ширина иконки */
   height: 134px; /* Высота иконки */
-  background: url("../icons/play-icon.png") no-repeat center center; /* Путь к иконке воспроизведения */
+  background: url("../icons/play-icon.svg") no-repeat center center; /* Путь к иконке воспроизведения */
   background-size: contain; /* Подгоняем иконку под размеры блока */
   cursor: pointer; /* Меняем курсор при наведении */
-  opacity: 0.8;
 }
 
 .footer {
@@ -402,7 +401,7 @@ html, body {
 }
 
 .footer__top-text {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 20px;
   color: #d5a946;
@@ -427,7 +426,7 @@ html, body {
 }
 
 .footer__bottom-link {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 23px;
   text-decoration: underline;
